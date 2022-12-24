@@ -1,0 +1,139 @@
+body {
+    background-image: url("fundo.jpg");
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #111111;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #7CFC00;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
+footer {
+    text-align: center;
+    background: url("rodape.jpg");
+    padding: 50px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 50px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+    text-align: center;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #FFFFFF;
+}
+
+.inputPadrao {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    width: 50%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #222222;
+}
+
+table{
+    margin: 30px auto;
+    background-image: url("horarios2.jpg");
+}
+
+thead {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+td, th {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.submit {
+    width: 50%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#7CFC00;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 10px;
+    transition: 1s background-color;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color:#64c900 ;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:900px) {
+    .caixa, .inputPadraoin{
+        width: auto;
+    }
+
+    main {
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+        position: static;
+    }
+
+}

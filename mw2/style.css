@@ -1,0 +1,153 @@
+body {
+    background-image: url("fundo.jpg");
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #111111;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #7CFC00;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF; 
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.principal strong {
+   font-weight: bold;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 3em;
+    color: #7CFC00;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+.conteudoLodouts {  
+    width: 640px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #FFFFFF ;
+    opacity: 0.5;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px #000000;
+}  
+
+.conteudoLodouts:hover {
+    border-color: #7CFC00;
+    width: 940px;
+    opacity: 1;
+}
+
+
+.descricaoLodouts {
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tituloItens {
+    color: #7CFC00;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5; 
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:before {
+   content: "►";
+}
+
+.imagemLodouts {
+    width: 65%;
+}
+
+.mapa {
+    padding: 3em;
+}
+
+.conteudosMapas {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 0 2em;
+}
+
+footer {
+    text-align: center;
+    background: url("rodape.jpg");
+    padding: 50px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 50px 0 0;
+}
+
+@media screen and (max-width:900px) {
+    .caixa, .principal, .conteudoLodouts , .conteudosMapas {
+        width: auto;
+        opacity: 1;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+        position: static;
+    }
+
+    .descricaoLodouts, .imagemLodouts {
+        width: 100%;
+    }
+}

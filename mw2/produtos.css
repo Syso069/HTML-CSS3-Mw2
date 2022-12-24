@@ -1,0 +1,147 @@
+body {
+    background-image: url("fundo.jpg");
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background: #111111;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #7CFC00;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF; 
+}
+
+.produtos {
+    width: 940px;
+    margin: 50px auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 10px 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+.produtos h2, p {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.produtos li:hover {
+    border-color: #7CFC00;
+}
+
+.produtos li:active {
+    border-color: #00ffaa;
+}
+
+.produtos li:hover h2 {
+    font-size: 30px;
+    color: #7CFC00;
+}
+
+.produtos li:hover p {
+    font-size: 30px;
+    color: #7CFC00;
+}
+
+.produtos li:active h2 {
+    font-size: 30px;
+    color: #00ffaa;
+}
+
+.produtos li:active p {
+    font-size: 30px;
+    color: #00ffaa;
+}
+
+.valorProduto {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+
+.descricaoProduto {
+    font-size: 18px;
+}
+
+.cap {
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+footer {
+    text-align: center;
+    background: url("rodape.jpg");
+    padding: 50px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 50px 0 0;
+}
+
+@media screen and (max-width:900px) {
+    .caixa, .produtos, .cap {
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .produtos h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+        position: static;
+    }
+
+    .descricaoProduto, .valorProduto, .imagemProdutos {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .cap {
+        width: 100%;
+    }
+}
