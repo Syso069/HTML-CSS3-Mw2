@@ -1,6 +1,6 @@
 # HTML-CSS3-Mw2
-Site Mw2
+<h1>Site Mw2</h1>
 <br>
-<h1>LINK PARA VER O SITE</h1>
+<p>LINK PARA VER O SITE</p>
 <br>
 <a href="https://syso069.github.io/HTML-CSS3-Mw2/mw2/">MW2</a>
