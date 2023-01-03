@@ -3,4 +3,4 @@
 <br>
 <p>LINK PARA VER O SITE</p>
 <br>
-<a href="https://syso069.github.io/HTML-CSS3-Mw2/mw2/">MW2</a>
+<a href="https://syso069.github.io/Mw2/mw2/">MW2</a>
